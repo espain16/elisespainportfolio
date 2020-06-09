@@ -1,17 +1,69 @@
 /* General */
 body{
-  background-color: #ffffff;
-  color:black;
+  background-color: #052623;
+  color:white;
   margin: 0px;
+  background-image: url('/images/Web 1920 – 1.png');
+   
 }
-a{
+
+a {
   margin-left: 40px;
-}
+} 
 /* Navigation */
-
-
-
-
+.nav-container {
+  color: #968080;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4%;
+  margin-right: 6%;
+}
+.nav-fix {
+  padding: 12px;
+}
+.resume-btn {
+  text-decoration: none;
+  margin-bottom: 2px;
+  color: #D97014;
+  border: 3px solid #D97014;;
+  border-radius: 4px;
+  padding: 10px
+}
 /*About Me */
 
+/* Projects */
+#projects{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.card {
+  width: 260px;
+  height: 360px;
+  background-color: #F2F2EB;
+  margin: 0px 5px;
+  border-radius: 10px;
+  transition: 0.5s ease;
+  color:black;
+
+}
+.card:hover {
+  transform: scale(1.15) perspective(1px);
+}
+.bottom-container {
+  display: flex;
+  justify-content: space-evenly;
+   
+}
+.egg-img {
+  background-image: url('/images/eggheadded.png');
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+  height: 250px;
+  width:100%
+}
+/* Contact Me Icons */
+.icons {
+ color: white;
+}
 /* SVG styles*/
