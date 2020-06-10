@@ -1,42 +1,52 @@
 /* General */
 body{
-  background-color: #052623;
   color:white;
   margin: 0px;
   background-image: url('/images/Web 1920 – 1.png');
-   
+  background-repeat: no-repeat; 
 }
 
-a {
-  margin-left: 40px;
-} 
 /* Navigation */
+
 .nav-container {
-  color: #968080;
+  color: #011526;
   display: flex;
   justify-content: flex-end;
   margin-top: 4%;
   margin-right: 6%;
 }
+
 .nav-fix {
+  margin-right: 45px;
   padding: 12px;
 }
+
 .resume-btn {
   text-decoration: none;
   margin-bottom: 2px;
-  color: #D97014;
-  border: 3px solid #D97014;;
+  color: #F26D78;
+  border: 3px solid #F26D78;
   border-radius: 4px;
   padding: 10px
 }
 /*About Me */
+#about-me{
+  width: 40%;
+  margin: 15% 0%;
+  margin-left: 20%;
+  border-bottom: 6px dotted #038C5A;
+  
+}
 
 /* Projects */
+
 #projects{
   display: flex;
   justify-content: space-around;
   text-align: center;
+  margin: 15% 0;
 }
+
 .card {
   width: 260px;
   height: 360px;
@@ -44,16 +54,35 @@ a {
   margin: 0px 5px;
   border-radius: 10px;
   transition: 0.5s ease;
-  color:black;
-
+  color:#011526;
+  
 }
+
 .card:hover {
   transform: scale(1.15) perspective(1px);
 }
+
 .bottom-container {
   display: flex;
   justify-content: space-evenly;
    
+}
+
+.code-btn {
+  width: 80px;
+  border: 2px solid #F26D78;
+  color:#F26D78;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.live-btn {
+  width: 80px;
+  border: 2px solid #011526;
+  color:#011526;
+  border-radius: 4px;
+  padding: 5px;
+
 }
 .egg-img {
   background-image: url('/images/eggheadded.png');
@@ -62,8 +91,24 @@ a {
   height: 250px;
   width:100%
 }
+
+.placeholder-img {
+  
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+  height: 250px;
+  width:100%
+}
+
 /* Contact Me Icons */
+.footer {
+
+}
+
 .icons {
- color: white;
+ color: #011526;
+ margin: 8% 0;
+ margin-left: 40px;
+
 }
 /* SVG styles*/
