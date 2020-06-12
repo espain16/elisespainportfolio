@@ -5,6 +5,11 @@ body{
   background-image: url('/images/Web 1920 – 1.png');
   background-repeat: no-repeat; 
   background-size: 100% 45%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.my-name{
+  font-size: 45px
 }
 
 /* Navigation */
@@ -15,6 +20,7 @@ body{
   justify-content: flex-end;
   margin-top: 4%;
   margin-right: 6%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .nav-btn a:hover{
