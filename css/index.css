@@ -4,6 +4,7 @@ body{
   margin: 0px;
   background-image: url('/images/Web 1920 – 1.png');
   background-repeat: no-repeat; 
+  background-size: 100% 45%;
 }
 
 /* Navigation */
@@ -16,6 +17,13 @@ body{
   margin-right: 6%;
 }
 
+.nav-btn a:hover{
+  border-bottom: 4px dotted #F26D78;
+}
+
+.nav-btn {
+  margin-top: 10px;
+}
 .nav-fix {
   margin-right: 45px;
   padding: 12px;
@@ -33,7 +41,7 @@ body{
 #about-me{
   width: 40%;
   margin: 15% 0%;
-  margin-left: 20%;
+  margin-left: 10%;
   border-bottom: 6px dotted #038C5A;
   
 }
