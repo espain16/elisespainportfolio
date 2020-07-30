@@ -2,7 +2,10 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  
+
+
   <!-- CSS -->
   <link rel="stylesheet" href="/css/index.css">
   <!-- Google Fonts -->
@@ -12,78 +15,122 @@
       src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
       data-auto-a11y="true"
     ></script>
+  
     <title>Elise Spain's Portfolio</title>
 </head>
 <body>
-  <!-- Navigation Bar  -->
-  <section id="navigation">
-    <nav class="nav-container">
-      <div class="nav-btn">
-        <a class="nav-fix"> About</a>
-        <a class="nav-fix">Projects</a>
-        <a class="nav-fix">Contact</a>
+  <!-- Navigation Bar & Intro -->
+  <section id="introduction">
+    <div class="background-design">
+    <header>
+      <nav>
+        <input type="checkbox" id="toggler">
+        <label for="toggler">
+          <span id="hamburger"></span>
+        </label>
+        <ul class="nav-container">
+          <li><a class="nav-btn"> About</a></li>
+          <li><a class="nav-btn">Projects</a></li>
+          <li><a class="nav-btn">Contact</a></li>
+          <li><a class="resume-btn" href="/resources/EliseSpainResume.views.pdf" target="_blank">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+
+      <div class="intro-elise">
+        <h1 class="intro-name">Elise Spain</h1>
+        <h2 class="my-title">Front End Developer</h2>
       </div>
-      <a class="resume-btn" href="/resources/EliseSpainResume.views.pdf" target="_blank">Resume</a>
-    </nav>
+    </div>
   </section>
+
   <!-- About Me -->
   <section id="about-me">
-    <h4>Hi, my name is</h4>
-    <h2 class="my-name">Elise Spain.</h2>
-    <p>I'm a software engineer based in Cupertino, Ca specializing in...Lorem ipsum dolor sit amet consectetur adipisicing elit. Error molestias quidem cumque obcaecati sequi blanditiis ratione vitae adipisci suscipit dignissimos.</p>
-    
+    <div class="row">
+      <div class="column left">
+        <a href="https://www.linkedin.com/in/elisespain/"><i class="fab fa-linkedin-in fa-2x icons"></i></a>
+        <a href="https://github.com/espain16"><i class="fab fa-github fa-2x icons"></i></a>
+        <a href="https://twitter.com/spainelise"><i class="fab fa-twitter fa-2x icons"></i></a>
+        <a href="mailto:spain.elise@gmail.com"><i class="fas fa-envelope fa-2x icons"></i></a>
+      </div>
+      <div class="column middle">
+        <h3>Hi, my name is</h3>
+        <h3 class="my-name">Elise Spain.</h3>
+        <p>
+          I'm an experienced Front End Developer with a passion for design and web development. 
+        </p>
+      </div>
+      <div class="column right">
+        <!-- <img class=" illustration " src="/images/undraw_contemplating_8t0x.svg"> -->
+      </div>
+    </div>
   </section>
-  <!-- Projects -->
-  <section id="projects">
 
-    
+  <!-- Skills -->
+
+  <section id='skills-section'>
+    <h2 class="skills-title">Skills</h2>
+    <ul class="skills-list">
+      <li class="container-skills skills1"><i class="fab fa-html5 skills-icons"></i> HTML</li>
+      <li class="container-skills"><i class="fab fa-css3 skills-icons"></i> CSS</li>
+      <li class="container-skills"><i class="fab fa-js-square skills-icons"></i> JAVASCRIPT</li>
+      <li class="container-skills"><i class="fab fa-react skills-icons"></i> REACT</li>
+      <li class="container-skills"><i class="fab fa-adobe skills-icons"></i> ADOBE XD</li>
+      <li class="container-skills"><i class="fab fa-figma skills-icons"></i> FIGMA</li>
+      </ul>
+  </section>
+
+  <!-- Projects -->
+  
+  <section id="projects">
+    <div class="card-container">
     <div class="card">
-      <img class="egg-img"src="/images/eggheaddedlogo.png" alt="eggs smiley face wallpaper">
-      <h4>EggHeadded</h4>
+      <img class="project-img"src="/images/eggheadded.png" alt="eggs smiley face wallpaper">
+      <h4 class="card-title">EggHeadded</h4>
       <div class="bottom-container">
-        <a href="https://github.com/the-collab-lab/tcl-6-smart-shopping-list"><button class="code-btn">Code</button></a>
+        <a href="https://github.com/the-collab-lab/tcl-6-smart-shopping-list" type="Go to Eggheaded code on GitHub"><button class="code-btn">Code</button></a>
         <a href="https://tcl-6-smart-shopping-list.netlify.app/"><button class="live-btn">Live</button></a>
       </div>
     </div>
 
     <div class="card">
-      <img class="placeholder-img" src="/images/bart-zimny-W5XTTLpk1-I-unsplash.jpg"alt="placeholder image of leaves">
-      <h4>Sauti Databank</h4>
+      <img class="project-img" src="/images/sauti-screenshot.png"alt="image of bar graph">
+
+      <h4 class="card-title">Sauti Databank</h4>
+
       <div class="bottom-container">
         <button class="code-btn">Code</button>
         <button class="live-btn">Live</button>
       </div>
+
     </div>
 
     <div class="card">
-      <img class="placeholder-img" src="/images/bart-zimny-W5XTTLpk1-I-unsplash.jpg"alt="placeholder image of leaves">
-      <h4>Future Project</h4>
+      <img class="project-img"src="/images/sauti-screenshot.png">
+
+      <h4 class="card-title">Future Project</h4>
+
       <div class="bottom-container">
         <button class="code-btn">Code</button>
         <button class="live-btn">Live</button>
       </div>
+
     </div>
-    <!-- This is for a future project -->
-    <!-- <div class="card">
-      <img>
-      <h4>Future Project</h4>
-      <div class="bottom-container">
-        <button class="code-btn">Code</button>
-        <button class="live-btn">Live</button>
-      </div>
-    </div> -->
 
+  </div>
   </section>
-  <!-- Work Experience (future)-->
+  
   <!-- Contact Me -->
+  <section class="contact-me">
+    <p>
+      Hope you like what you've seen so far. Feel free to hit the button below to get in touch with me. 
+    </p>
+    <button class="cta-btn">Email Me!</button>
+  </section>
+
   <footer class="footer">
-    <a href="https://www.linkedin.com/in/elisespain/"><i class="fab fa-linkedin-in fa-2x icons"></i></a>
-    <a href="https://github.com/espain16"><i class="fab fa-github fa-2x icons"></i></a>
-    <a href="https://twitter.com/spainelise"><i class="fab fa-twitter fa-2x icons"></i></a>
-    <a href="mailto:spain.elise@gmail.com"><i class="fas fa-envelope fa-2x icons"></i></a>
+    <p>Made with love by 💚 Elise S</p>
   </footer>
-
-
 
 </body>
 </html>
