@@ -15,8 +15,12 @@ body {
 
 /* Landing Page */
 .background-design {
+  background-image: url("/images/Screen Shot 2020-08-21 at 12.40.31 PM.png");
+  background-position: center center;
+  background-repeat: no-repeat;
   background-color: #0f3e02;
-  height: 100vh;
+  background-size: cover;
+  /* height: 100vh; */
   padding-top: 5%;
   overflow: hidden;
 } 
@@ -290,6 +294,11 @@ ul.skills-list {
   .illustration {
     width: 365px;
   }
+  /* Skills */
+  ul.skills-list {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+  }
   /* Projects */
   .card-container {
     flex-direction: row;
@@ -318,7 +327,7 @@ ul.skills-list {
   /* Skills */
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 2fr);
     place-items: center;
   }
   /* Projects */
@@ -450,6 +459,10 @@ ul.skills-list {
   .skills-title {
     text-align: center;
     margin-right: 7%;
+  }
+  ul.skills-list {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
   }
   .skills-list {
     list-style: none;
