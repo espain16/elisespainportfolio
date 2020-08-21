@@ -15,7 +15,7 @@ body {
 
 /* Landing Page */
 .background-design {
-  background-image: url("/images/Screen Shot 2020-08-21 at 12.40.31 PM.png");
+  background-image: url("/images/Test 2.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-color: #0f3e02;
@@ -89,7 +89,7 @@ margin-top: 80px;
 ul.skills-list {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  
+  row-gap: 40px ;
 }
 .skills-list {
   justify-items: center;
