@@ -7,4 +7,4 @@
 - #F2F2EB
 - #8C3D20
 
-
+- grid-row-gap: is obsolete and now has been replaced with row-gap 
