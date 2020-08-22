@@ -5,6 +5,13 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #F2F2EB; 
 }
+hr {
+  width: 10%;
+  border-top: 6px dotted #012523;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
 /* Navigation */
 #toggler {
   display: none;
@@ -15,7 +22,7 @@ body {
 
 /* Landing Page */
 .background-design {
-  background-image: url("/images/Screen Shot 2020-08-21 at 12.40.31 PM.png");
+  background-image: url("/images/Test 2.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-color: #0f3e02;
@@ -89,11 +96,11 @@ margin-top: 80px;
 ul.skills-list {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  
+  row-gap: 40px ;
 }
 .skills-list {
   justify-items: center;
-
+  list-style-type: none;
   
 }
 .skills-icons {
@@ -144,11 +151,20 @@ ul.skills-list {
   .nav-container {
     margin: 0px;
     margin-left: 50%;
+    color: #ffffff;
     
   }
   .nav-container {
     max-height: 0px;
     overflow: hidden;
+  }
+  .nav-container:visited {
+    color:#F26D78;
+  }
+
+  .nav-container {
+    text-decoration: none;
+    color: #ffffff;
   }
   #toggler:checked ~ .nav-container{
     max-height: 240px;
@@ -196,13 +212,19 @@ ul.skills-list {
   }
   /* Landing Page */
   .intro-elise {
-    padding-top: 30%;
+    padding-top: 21%;
+    margin: 10px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .my-title {
+   margin-bottom: 30px;
   }
 
   /* About Me */
-  .intro-elise {
+  /* .intro-elise {
     margin: 10px;
-  }
+  } */
   
   #about-me {
     margin-top: 20%;
@@ -233,11 +255,12 @@ ul.skills-list {
   }
 
   /* Skills */
-  #skills-section {
-    /* height: 300px; */
-    /* margin-top: 40%; */
+  ul.skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    row-gap: 40px ;
+    width: 80%;
   }
-  
   /* Projects */
   .card-container {
     display: flex;
