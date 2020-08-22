@@ -151,11 +151,20 @@ ul.skills-list {
   .nav-container {
     margin: 0px;
     margin-left: 50%;
+    color: #ffffff;
     
   }
   .nav-container {
     max-height: 0px;
     overflow: hidden;
+  }
+  .nav-container:visited {
+    color:#F26D78;
+  }
+
+  .nav-container {
+    text-decoration: none;
+    color: #ffffff;
   }
   #toggler:checked ~ .nav-container{
     max-height: 240px;
@@ -248,7 +257,7 @@ ul.skills-list {
   /* Skills */
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: repeat(2, 3fr);
     row-gap: 40px ;
     width: 80%;
   }
