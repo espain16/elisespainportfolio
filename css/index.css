@@ -5,6 +5,13 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #F2F2EB; 
 }
+hr {
+  width: 10%;
+  border-top: 6px dotted #012523;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
 /* Navigation */
 #toggler {
   display: none;
@@ -93,7 +100,7 @@ ul.skills-list {
 }
 .skills-list {
   justify-items: center;
-
+  list-style-type: none;
   
 }
 .skills-icons {
@@ -196,13 +203,19 @@ ul.skills-list {
   }
   /* Landing Page */
   .intro-elise {
-    padding-top: 30%;
+    padding-top: 21%;
+    margin: 10px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .my-title {
+   margin-bottom: 30px;
   }
 
   /* About Me */
-  .intro-elise {
+  /* .intro-elise {
     margin: 10px;
-  }
+  } */
   
   #about-me {
     margin-top: 20%;
@@ -233,11 +246,12 @@ ul.skills-list {
   }
 
   /* Skills */
-  #skills-section {
-    /* height: 300px; */
-    /* margin-top: 40%; */
+  ul.skills-list {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    row-gap: 40px ;
+    width: 80%;
   }
-  
   /* Projects */
   .card-container {
     display: flex;
