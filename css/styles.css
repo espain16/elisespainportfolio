@@ -18,8 +18,14 @@ hr {
 }
 .nav-container {
   list-style: none;
+  
 }
-
+.nav-btn {
+  text-decoration: none;
+}
+.nav-btn:visited {
+  color:#0f3e02;
+}
 /* Landing Page */
 .background-design {
   background-image: url("../images/Test 2.png");
