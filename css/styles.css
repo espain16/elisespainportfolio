@@ -18,20 +18,22 @@ hr {
 }
 .nav-container {
   list-style: none;
-  
+  color: #011526;
 }
 .nav-btn {
   text-decoration: none;
+  color:#011526;
 }
 .nav-btn:visited {
-  color:#0f3e02;
+  color:#011526;
 }
+
 /* Landing Page */
 .background-design {
   background-image: url("../images/Test 2.png");
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: #0f3e02;
+  background-color: #012523;
   background-size: cover;
   /* height: 100vh; */
   padding-top: 5%;
@@ -43,7 +45,16 @@ hr {
   color: #F26D78;
   margin: 12px;
 }
-
+.name{
+  width: 100%;
+}
+.sub-aboutme {
+  margin-bottom: 5px;
+  padding-top: 3%;
+}
+.about-paragraph{
+  margin-top: 5px;
+}
 /* Projects */
 .card-container {
   display: flex;
