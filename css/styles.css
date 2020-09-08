@@ -12,6 +12,10 @@ hr {
   margin-bottom: 20%;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Navigation */
 #toggler {
   display: none;
@@ -85,6 +89,7 @@ margin-top: 80px;
   margin: 2%;
 }
 .code-btn {
+  text-decoration: none;
   background-color: #ffffff;
   border: 2px solid #F26D78;
   color:#F26D78;
