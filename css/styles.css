@@ -255,11 +255,6 @@ ul.skills-list {
   .my-title {
    margin-bottom: 30px;
   }
-
-  /* About Me */
-  /* .intro-elise {
-    margin: 10px;
-  } */
   
   #about-me {
     margin-top: 20%;
@@ -296,6 +291,7 @@ ul.skills-list {
     row-gap: 40px ;
     width: 80%;
   }
+  
   /* Projects */
   .card-container {
     display: flex;
