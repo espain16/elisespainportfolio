@@ -133,6 +133,10 @@ ul.skills-list {
   margin-bottom: 5px;
 }
 
+.skills-subtitle {
+  text-align: center;
+}
+
 /* Contact Me  */
 .contact-me {
   background-color: #C8D8B1;
@@ -187,6 +191,15 @@ ul.skills-list {
   .nav-container {
     text-decoration: none;
     color: #ffffff;
+  }
+  .nav-btn{
+    color: #ffffff;
+  }
+  .nav-btn:visited{
+    color: #ffffff;
+  }
+  .resume-btn {
+   color: #F26D78;
   }
   #toggler:checked ~ .nav-container{
     max-height: 240px;
