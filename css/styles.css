@@ -97,6 +97,7 @@ margin-top: 80px;
   font-size: 16px;
   width: 30%;
   margin-left: 13%;
+  cursor: pointer;
   
 }
 .live-btn {
@@ -107,6 +108,7 @@ margin-top: 80px;
   border-radius: 2px;
   width: 30%;
   margin-left: 11%;
+  cursor: pointer;
 }
 
 /* Skills */
@@ -200,6 +202,7 @@ ul.skills-list {
   }
   .resume-btn {
    color: #F26D78;
+   cursor: pointer;
   }
   #toggler:checked ~ .nav-container{
     max-height: 240px;
