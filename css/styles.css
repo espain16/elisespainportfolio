@@ -59,6 +59,7 @@ a {
 .about-paragraph{
   margin-top: 5px;
 }
+
 /* Projects */
 .card-container {
   display: flex;
@@ -85,17 +86,21 @@ margin-top: 80px;
   font-size: 20px;
  
 }
-.btn {
+/* .btn {
   margin: 2%;
+} */
+.project-btns{
+  display: inline-block;
+  margin-left: 15%;
 }
+
 .code-btn {
   text-decoration: none;
   background-color: #ffffff;
   border: 2px solid #F26D78;
   color:#F26D78;
   border-radius: 2px;
-  font-size: 16px;
-  width: 30%;
+  font-size: 18px;
   margin-left: 13%;
   cursor: pointer;
   
@@ -104,9 +109,9 @@ margin-top: 80px;
   background-color: #ffffff;
   border: 2px solid #0f3e02;
   color: #0f3e02;
-  font-size: 16px;
+  font-size: 18px;
   border-radius: 2px;
-  width: 30%;
+  
   margin-left: 11%;
   cursor: pointer;
 }
